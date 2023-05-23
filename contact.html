@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0"> 
+	<title>Evernight</title>
+	<meta charset="utf-8">
+	<meta name="author" content="group 4">
+	<meta name="description" content="a fresh and innovative clothing brand dedicated to providing stylish and sustainable
+		fashion options for the modern and conscious consumer.">
+	<meta name="keywords" content="fashion,clothing,brand">
+    <link rel="icon" type="image/x-icon" href="images/logo_pastel.jpg">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times-circle" onclick="hidemenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="index.html #product-section">PRODUCT</a></li>
+					<li><a href="index.html #collection">COLLECTION</a></li>
+					<li><a href="lookbook.html">LOOK BOOK</a></li>
+					<li><a href="feedback.html">FEEDBACK</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
+					<li><a href="privacypolicy.html">PRIVACY POLICY</a></li>
+				</ul> 
+			</div>
+			<i class="fa fa-bars" onclick="showmenu()"></i>
+		</nav>
+		<h1>Contact Us</h1>
+	</section>
+	<!------contact----->
+	<section class="contact-1">
+		<div class="row">
+			<div class="column">
+				<h2>Delivery</h2>
+				<a href="" class="hero-btn btn-4" >Track My Order</a>
+				<p>To check your order status, please click here and enter in your order number</p> 
+				<a href="" class="hero-btn btn-4" >Delivert Support</a>
+				<p>For troubles with the delivery process of your order please click here to provide us more information.</p>
+				<h2>Return and Exchange</h2>
+				<a href="" class="hero-btn btn-4" >Return</a>
+				<p>Return product 15 days before purchased and attach with receipt</p>
+			</div>
+  
+			<div class="column">
+				<h2>Contact Info</h2>
+					<div class="contactInfo">
+						<div class="box">
+							<div class="text">
+								<h3>Address</h3>
+								<p>Swinburne University of Technology Sarawak Campus <br>Kuching, Sarawak, Malaysia <br>93350</p>
+							</div>
+						</div>
+						<div class="box">
+							<div class="text">
+								<h3>Phone</h3>
+								<p>(+60)-123456789</p>
+							</div>
+						</div>
+						<div class="box">
+							<div class="text">
+								<h3>Email</h3>
+								<p>random@yahoo.com</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="contactform">
+			<form>
+				<h3>Send Message</h3>
+				<div class="inputbox">
+					<input type="text" required="required">
+					<span>Full Name</span>
+				</div>
+				<div class="inputbox">
+					<input type="text" required="required">
+					<span>Email</span>
+				</div>
+				<div class="inputbox">
+					<textarea name="" id="textarea" required="required"></textarea>
+					<span>Message for us</span>
+				</div>
+				<div class="inputbox">
+					<input type="submit" value="Send">
+				</div>
+			</form>
+		</div>
+	</section>
+<!-----footer----->
+<footer>
+	<section class="footer">
+		<p>&copy; 2023 Evernight</p>
+		<p>&copy; <a href="yourgroupname.html">code mavericks</a> | Last updated: 23rd May 2023</p>
+	</section>
+</footer>
+<!-----Javas for toggle Menu----->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+		function showmenu(){
+			navLinks.style.right = "0";
+		}
+		function hidemenu(){
+			navLinks.style.right = "-200";
+		}
+	</script>
+	<p class="disclaimer">Disclaimer: This website is created for education and non-commercial use
+		only. It is an assignment for completion of unit, FST10011 Web and Cloud
+		Technologies for Foundation course from Swinburne University of Technology
+		Sarawak Campus.</p>
+
+
+</body>
+</html>

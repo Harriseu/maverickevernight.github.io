@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Evernight | Men's and Women's Clothing, Streetwear, Fashion</title>
+	<meta charset="utf-8">
+	<meta name="author" content="group 4">
+	<meta name="description" content="a fresh and innovative clothing brand dedicated to providing stylish and sustainable
+		fashion options for the modern and conscious consumer.">
+	<meta name="keywords" content="fashion,clothing,brand">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+	<link rel="icon" type="image/x-icon" href="images/logo_pastel.jpg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<section class="header">
+			<nav>
+				<a href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times-circle" onclick="hidemenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="#product-section">PRODUCT</a></li>
+						<li><a href="#collection">COLLECTION</a></li>
+						<li><a href="lookbook.html">LOOK BOOK</a></li>
+						<li><a href="feedback.html">FEEDBACK</a></li>
+						<li><a href="contact.html">CONTACT US</a></li>
+						<li><a href="privacypolicy.html">PRIVACY POLICY</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showmenu()"></i>
+			</nav>
+			<div class="text-box">
+				<div class="image-overlay">
+					<h1 data-value="Best Streetwear Brand">Best Streetwear Brand</h1>
+					<p>Our clothing brand offers sustainable and stylish pieces for the modern eco-conscious consumer.
+						We use only organic and recycled materials in our production process to minimize our impact on the
+						environment.
+					</p>
+					<a href="about.html" class="hero-btn">Visit Us To Know More</a>
+				</div>
+			</div>
+		</section>
+	</header>
+	<!--------PRODUCT------>
+	<section class="product" id="product-section">
+		<h1>Product</h1>
+		<p>All kinds of product ranges from shirt, t-shirt, sweaters, pants and accessories</p>
+		<section class="product-display">
+			<div class="container">
+				<div class="card">
+					<div class="box">
+						<div class="content">
+						<img src="images/man.jpg" alt="man">
+						<div class="card-text">
+							<h2>M</h2>
+							<h3>Men's Fashion</h3>
+							<a href="mensproduct.html">Browse Men's</a>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="box">
+						<div class="content">
+						<img src="images/tshirt.jpg" alt="pants">
+						<div class="card-text">
+						<h2>W</h2>
+						<h3>Women's Fashion</h3>
+						<a href="womensproduct.html">Browse Women's</a>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</section>
+
+
+	<!------collection----->
+	<section class="collection" id="collection">
+		<h1>Collection</h1>
+		<p>More creative and new style</p>
+
+		<div class="row">
+			<div class="new-col">
+				<img src="images/photo 1.jpg" alt="blue sweater">
+				<div class="layer">
+					<p>Sweater</p>
+				</div>
+			</div>
+			<div class="new-col">
+				<img src="images/photo 2.jpg" alt="Girl in sunglasses">
+				<div class="layer">
+					<p>Shirt</p>
+				</div>
+			</div>
+			<div class="new-col">
+				<img src="images/photo 3.jpg" alt="women at a field of flowers">
+				<div class="layer">
+					<p>Outerwear</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-----look book----->
+
+	<section class="look-book">
+		<h1>Look Book</h1>
+		<p>As reference for customer for choices of clothing and matching style</p>
+
+
+
+	</section>
+
+	<!-----privacy policy----->
+	<!----i want it to be toggle by pressing/clicking a button to enter about privacy policy---->
+	<section class="privacy-policy">
+
+		<h1>Privacy Policy</h1>
+		<p>This page explains about our privacy policy</p>
+		<div class="frame">
+			<a href="privacypolicy.html" class="custom-btn btn-3"><span>Privacy Policy</span></a>
+		</div>
+	</section>
+
+	<!-----footer----->
+	<footer>
+		<section class="footer">
+			<h1>About Us</h1>
+			<p>At Evernight, we are passionate about creating high-quality and affordable products that will make our
+				customers image more stylish. Our brand was founded at 2023 with the goal of improving Earth's
+				sustainability by introducing better ways to create a sustainable and environmentally friendly
+				products.We take great pride in our line of work and dedicate to produce good product. Whether it's for
+				our stylish, we strive to exceed expectations with every product we sell.
+			</p>
+			<p>Evernight &copy; 2023, All rights reserved</p>
+			<p>&copy; <a href="codemavericks.html">Code Mavericks</a> | Last updated: 23th May 2023</p>
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-linkedin"></i>
+			</div>
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+		</section>
+	</footer>
+
+	<!-----Javas for toggle Menu----->
+	<script src="design.js">
+		var navLinks = document.getElementById("navLinks");
+		function showmenu() {
+			navLinks.style.right = "0";
+		}
+		function hidemenu() {
+			navLinks.style.right = "-200px";
+		}
+	</script>
+
+	<fieldset class="box-footer">
+		<p class="disclaimer">Disclaimer: This website is created for education and non-commercial use
+			only. It is an assignment for completion of unit, FST10011 Web and Cloud
+			Technologies for Foundation course from Swinburne University of Technology
+			Sarawak Campus.</p>
+	</fieldset>
+
+
+</body>
+
+</html>
+
+<!-- All images are taken from Unsplash (https://unsplash.com/) -->
